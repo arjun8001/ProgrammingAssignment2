@@ -1,7 +1,10 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Write a short comment describing this function
+# set the value of the vector
+# get the value of the vector
+# set the value of the mean
+# get the value of the mean
 
 makeCacheMatrix <- function(myMat = matrix()) {
 
@@ -25,7 +28,7 @@ makeCacheMatrix <- function(myMat = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## below function checks if the cached data is present or not. and if it is not present it will re-calculate
 
 cacheSolve <- function(myMat, ...) {
         ## Return a matrix that is the inverse of 'myMat'
